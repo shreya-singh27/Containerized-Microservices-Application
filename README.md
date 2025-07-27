@@ -1,40 +1,41 @@
-# 🚀 Containerized Microservices Application with Jenkins CI/CD
+#  Containerized Microservices Application with Jenkins CI/CD
 
 This project demonstrates a simple microservices-based architecture using Flask, PostgreSQL, Redis, and Jenkins for CI/CD, all containerized using Docker Compose.
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 Containerized-Microservices-Application/
-├── Jenkinsfile
-├── docker-compose.yml
-├── init.sql
-├── user-service/
-│ ├── app.py
-│ ├── Dockerfile
-│ └── requirements.txt
-├── data-service/
-│ ├── app.py
-│ ├── Dockerfile
-│ └── requirements.txt
+- Jenkinsfile
+- docker-compose.yml
+- init.sql
+- user-service/
+  - app.py
+  - Dockerfile
+  - requirements.txt
+- data-service/
+  - app.py
+  - Dockerfile
+  - requirements.txt
+
 
 
 ---
 
-## 🧩 Microservices Overview
+##  Microservices Overview
 
-### 1️⃣ `user-service`
+### 1️ `user-service`
 - A Flask-based API that communicates with the `data-service` and interacts with Redis.
 - Responsible for handling user-facing logic.
 
-### 2️⃣ `data-service`
+### 2️ `data-service`
 - A Flask service responsible for PostgreSQL operations.
 - Receives HTTP requests from `user-service` and responds with data.
 
 ---
 
-## ⚙️ Technologies Used
+##  Technologies Used
 
 - Docker & Docker Compose
 - Flask (Python)
@@ -45,7 +46,7 @@ Containerized-Microservices-Application/
 
 ---
 
-## 🔄 CI/CD Flow (Jenkins Pipeline)
+##  CI/CD Flow (Jenkins Pipeline)
 
 1. Code is pushed to GitHub.
 2. Jenkins pulls the latest code.
@@ -57,7 +58,7 @@ Containerized-Microservices-Application/
 
 ---
 
-## 📝Jenkinsfile Stages
+## Jenkinsfile Stages
 
 - **Clone Repository**
 - **Build Docker Images**
@@ -66,7 +67,7 @@ Containerized-Microservices-Application/
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 | Step | Screenshot |
 |------|------------|
