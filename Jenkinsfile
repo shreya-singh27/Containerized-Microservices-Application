@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/shreya-singh27/Containerized-Microservices-Application.git'
+                git branch: 'main', url: 'https://github.com/shreya-singh27/Containerized-Microservices-Application.git'
             }
         }
 
