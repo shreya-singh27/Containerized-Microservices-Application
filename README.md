@@ -74,7 +74,6 @@ Containerized-Microservices-Application/
 | Docker Versions Check | ![docker-version](./screenshots/docker-version.png) |
 | Jenkins Running | ![jenkins-running](./screenshots/jenkins-running.png) |
 | Build Success in Jenkins | ![build-success](./screenshots/build-success.png) |
-| Running Containers After Build | ![containers-after-build](./screenshots/containers-after-build.png) |
 | CURL Response from user-service | ![curl-response-user-data](./screenshots/curl-response-user-data.png) |
 
 ---
